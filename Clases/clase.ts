@@ -13,6 +13,3 @@ export class Persona {
         return `Hola, mi nombre es ${this.nombre} y tengo ${this.edad} años`;
     }
 }
-
-// let persona = new Persona("Juan", 30, true);
-// console.log(persona.saludar()); // Imprime: "Hola, mi nombre es Juan y tengo 30 años"
