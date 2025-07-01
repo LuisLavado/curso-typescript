@@ -1,4 +1,4 @@
-class Persona {
+export class Persona {
     // public es accesible desde cualquier parte
     public nombre: string;
     

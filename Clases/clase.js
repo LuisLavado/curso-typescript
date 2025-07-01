@@ -1,3 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Persona = void 0;
 var Persona = /** @class */ (function () {
     function Persona(nombre, edad, desarrollador) {
         this.nombre = nombre;
@@ -5,9 +8,14 @@ var Persona = /** @class */ (function () {
         this.desarrollador = desarrollador;
     }
     Persona.prototype.saludar = function () {
-        return "Hola, mi nombre es ".concat(this.nombre, " y tengo ").concat(this.edad, " a\u00F1os");
+        return "Hola, me llamo ".concat(this.nombre);
+    };
+    Persona.prototype.obtenerEdad = function () {
+        return this.edad;
+    };
+    Persona.prototype.esDev = function () {
+        return this.desarrollador;
     };
     return Persona;
 }());
-var persona = new Persona("Juan", 30, true);
-console.log(persona.saludar()); // Imprime: "Hola, mi nombre es Juan y tengo 30 años"
+exports.Persona = Persona;
