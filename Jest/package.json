@@ -1,0 +1,17 @@
+{
+  "name": "typescript-jest-example",
+  "version": "1.0.0",
+  "description": "Ejemplo de pruebas con Jest en TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.4",
+    "ts-jest": "^29.4.0"
+  }
+}
