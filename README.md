@@ -35,5 +35,5 @@ Domina tipado, funciones, clases, interfaces, genéricos y pruebas en TypeScript
 [22. Tipos y Mapeo de Datos en TypeScript](./documentation/22-types.md)  
 [23. Implementación de Decoradores de Clase en TypeScript y Angular](./documentation/23-decorators.md)  
 [24. Comunicación Asíncrona en TypeScript con Fetch y JSON](./documentation/24-asynchronous-communication.md)  
-[25. Pruebas Unitarias en TypeScript con Jest](./documentation/25-unit-testing.md)
+[25. Pruebas Unitarias en TypeScript con Jest](./documentation/25-unit-testing.md)  
 [26. Introducción a TypeScript para Mejora de Habilidades de Programación](./documentation/26-improve-your-skills.md)  
